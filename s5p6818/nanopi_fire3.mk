@@ -23,14 +23,14 @@ TARGET_UBOOT_CONFIG=s5p6818_nanopi3_config
 # Kernel
 # 
 
-TARGET_KERNEL_CONFIG=nanopi3_linux_defconfig
+TARGET_KERNEL_CONFIG=nanopi3_friendlywrt_defconfig
 TARGET_KERNEL_DTB=s5p6818-nanopi3-*.dtb
 
 # Misc
 # 
 FRIENDLYWRT_ROOTFS=build_dir/target-aarch64_cortex-a53_musl/root-nexell-s5p6818
 TARGET_IMAGE_DIRNAME=friendlywrt
-TARGET_SD_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPi_Fire3_arm64_sd.img
-TARGET_EFLASHER_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPi_Fire3_arm64_eflasher.img
+TARGET_SD_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPi-Fire3_arm64_sd.img
+TARGET_EFLASHER_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPi-Fire3_arm64_eflasher.img
 
 
