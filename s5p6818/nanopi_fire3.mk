@@ -23,7 +23,7 @@ TARGET_UBOOT_CONFIG=s5p6818_nanopi3_config
 # Kernel
 # 
 
-TARGET_KERNEL_CONFIG=nanopi3_friendlywrt_defconfig
+TARGET_KERNEL_CONFIG=nanopi3_linux_defconfig
 TARGET_KERNEL_DTB=s5p6818-nanopi3-*.dtb
 
 # Misc
